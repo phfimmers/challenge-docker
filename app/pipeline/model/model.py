@@ -1,3 +1,6 @@
-import random
+import numpy as np
 
-print(random.randint(0, 400))
+def model(oned_array):
+    print(np.random.choice(oned_array))
+
+
